@@ -1,0 +1,31 @@
+body {
+    background-color: #040424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    color: blue;
+}
+
+#nav {
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+   
+}
+#centerbox{
+    background-color: red;
+    height: 300px;
+    width: 80%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}

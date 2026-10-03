@@ -16,11 +16,17 @@ h1 {
     height: 50px;
     border-radius: 25px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;  
    
+}
+p{
+    width: 25%;
 }
 #centerbox{
     background-color: red;
-    height: 300px;
+    height: 400px;
     width: 80%;
     color:white;
     display: flex;

@@ -1,0 +1,46 @@
+body {
+    background-color: #040424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#nav {
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    gap: 15px;  
+}
+
+#theholdingdiv{
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#theleft {
+    width:33%;
+    height: 100%;
+    background-color: red;
+    margin: 5px;
+}
+#thecenter {
+    width:33%;
+    height: 100%;
+    background-color: red;
+    margin: 5px;
+
+}
+#theright {
+    width:33%;
+    height: 100%;
+    background-color: red;
+    margin: 5px;
+
+}

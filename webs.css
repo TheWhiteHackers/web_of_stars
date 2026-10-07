@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    background-color: #040424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+h1 {
+    color: #ffbd59;
+}
+
+#nav {
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 25px;  
+   
+}
+#nav p{
+    position: absolute;
+    left: 20px;
+    color: #7f93cf;
+    font-weight: 700;
+}
+p{
+    /* width: 100%; */
+    color: #040424;
+}
+#centerbox{
+    /* background-color: red; */
+    height: 300px;
+    width: 80%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+h2{
+    color: #040424;
+}
+#right{
+    /* background-color: aqua; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left p{
+    color: white;
+    width: 90%;
+}
+#left{
+    /* background-color:greenyellow; */
+    width: 45%;
+    height: 100%;
+}
+#whiteright{
+    background-color: white;
+    width: 45%;
+    height: 90%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+}
+#whiteright img{
+    border-radius: 20px;
+}
+#whiteleft{
+    background-color:white;
+    width: 45%;
+    height: 90%;
+    padding: 15px;
+    border-radius: 20px 0px 0px 20px;
+
+}
+#yellowright{
+    background-color: #ffbd59;
+    width: 45%;
+    height: 90%;
+    padding: 15px;
+    border-radius: 0px 20px 20px 0px;
+}
+#yellowleft{
+    background-color:#ffbd59;
+    width: 45%;
+    height: 90%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+
+}
+#yellowleft img{
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: #040424;
+}
+#webslink{
+    color: #ffbd59;
+}
